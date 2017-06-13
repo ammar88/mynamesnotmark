@@ -1,0 +1,47 @@
+/* Position */
+.relative { position: relative }
+.absolute { position: absolute }
+.fixed    { position: fixed }
+
+.t-0 { top: 0 }
+.t-1 { top: var(--pos-y-1); }
+.t-2 { top: var(--pos-y-2); }
+
+.r-0 { right: 0 }
+.r-1 { right: var(--pos-x-1); }
+.r-2 { right: var(--pos-x-2); }
+.r-3 { right: var(--pos-x-3); }
+.r-4 { right: var(--pos-x-4); }
+
+.b-0 { bottom: 0 }
+.b-1 { bottom: var(--pos-y-1); }
+.b-2 { bottom: var(--pos-y-2); }
+
+.l-0 { left: 0 }
+.l-1 { left: var(--pos-x-1); }
+.l-2 { left: var(--pos-x-2); }
+.l-3 { left: var(--pos-x-3); }
+.l-4 { left: var(--pos-x-4); }
+
+/* Percentages */
+.t-50 { top: 50% }
+.r-50 { right: 50% }
+.b-50 { bottom: 50% }
+.l-50 { left: 50% }
+
+/* Z-index */
+.z-1{ z-index: -1; }
+.z-2{ z-index: 2; }
+.z-3{ z-index: 3; }
+.z-4{ z-index: 4; }
+.last{ z-index: -9999; }
+
+
+@media screen and (min-width: 48em) {
+	.fixed-m	{ position: fixed; }
+	.absolute-m { position: absolute }
+}
+@media screen and (min-width: 60em) {
+	.fixed-l	{ position: fixed; }
+}
+

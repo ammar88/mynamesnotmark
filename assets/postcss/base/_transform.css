@@ -1,0 +1,49 @@
+/*********************
+Stylesheet: Transform
+**********************/
+
+
+/* mv - direction - amount */
+
+.mv-0 { transform: translate3d(0,0,0); }
+
+.mv-u-25 	{ transform: translateY(-25%); }
+.mv-u-50 	{ transform: translateY(-50%); }
+.mv-u-75 	{ transform: translateY(-75%); }
+.mv-u-100 	{ transform: translateY(-100%); }
+
+.mv-d-25 	{ transform: translateY(25%); }
+.mv-d-50 	{ transform: translateY(50%); }
+.mv-d-75 	{ transform: translateY(75%); }
+.mv-d-100 	{ transform: translateY(100%); }
+
+.mv-l-25 	{ transform: translateX(-25%); }
+.mv-l-50 	{ transform: translateX(-50%); }
+.mv-l-75 	{ transform: translateX(-75%); }
+.mv-l-100 	{ transform: translateX(-100%); }
+
+.mv-r25 	{ transform: translateX(25%); }
+.mv-r50 	{ transform: translateX(50%); }
+.mv-r75 	{ transform: translateX(75%); }
+.mv-r100 	{ transform: translateX(100%); }
+
+
+.mv-ul-50	{ transform: translate(-50%, -50%); }
+
+
+@media screen and (min-width: 25em) {
+}
+
+@media screen and (min-width: 48em) {
+	.mv-u-50-m 		{ transform: translateY(-50%); }
+	.mv-u-100-m 	{ transform: translateY(-100%); }
+	
+	.mv-d-50-m 		{ transform: translateY(50%); }
+	.mv-d-100-m 	{ transform: translateY(100%); }
+
+	.mv-ul-50-m		{ transform: translate(-50%, -50%); }
+	.mv-ul-7050-m	{ transform: translate(-70%, -50%); }
+	.mv-ul-3050-m	{ transform: translate(-30%, -50%); }
+
+	
+}

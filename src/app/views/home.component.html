@@ -1,0 +1,27 @@
+
+<main id="main" class="site-main mt3 mt9-m px5 px3-m px2-l border-box w-100 cf" role="main" itemprop="mainContentOfPage">
+
+	<h1 class="page-title relative regular line-height-2 ts-13 ts-12-m font-family-7 mx6 mb6 mx4-m mb4-m mt0">Web Developer</h1>
+
+	<p class="cb bold line-height-3 ts-4 ts-6-m font-family-5 mb5">
+	Hi, my name's not Mark. <br/>Ammar Idris is a 
+	<span 
+		(mouseover)='onHoverHighlight("Hip Hop")' 
+		(mouseout)='offHoverHighlight("Hip Hop")'>hip hop producer</span>, <br/>
+	<span 
+		(mouseover)='onHoverHighlight("Writer")' 
+		(mouseout)='offHoverHighlight("Writer")'>novice screenwriter</span>,
+	<a routerLink="/work" class="txt-dec-none">
+		<span 
+			(mouseover)='onHoverHighlight("Web Dev")'  
+			(mouseout)='offHoverHighlight("Web Dev")' class="highlight">web developer
+		</span>
+	</a> <br/> and 
+	<span 
+		(mouseover)='onHoverHighlight("Chef")' 
+		(mouseout)='offHoverHighlight("Chef")'>lousy chef
+	</span> based in London.</p>
+
+	<background-cover [backgroundCovers]="backgroundCovers"></background-cover>
+
+</main>

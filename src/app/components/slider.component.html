@@ -1,0 +1,36 @@
+<!-- slide titles -->
+<div class="he1-m overflow-hidden absolute-m t-50 l-0 r-0 z-2">
+	<article class="l-1 h-100 absolute-m"
+		*ngFor="let slide of slides"
+		[class.mv-0]="slide.position == 'center'"
+		[class.mv-d-100-m]="slide.position == 'bottom'"
+		[class.mv-u-100-m]="slide.position == 'top'"
+		[class.trsn-mv]="slide.shouldTransition"
+		>
+		<h2 class="pt6 pt4-m m0 bold line-height-2 ts-1 ts-2-m ts-7-l font-family-5"><a href="single.html" class="hv-trns hv-color-yellow txt-dec-none" routerLink="/work/{{ slide.alias }}">{{ slide.title }}</a></h2>
+		<p class="absolute-m m0 t-0 regular line-height-3 type-size-6 font-family-2">{{ slide.date.getFullYear() }}</p>
+	</article>
+</div>
+
+<!-- slider images -->
+<div class="absolute t-1 l-2 r-2 b-0 overflow-hidden display-b-m" data-current='0'>
+
+	<div class="absolute m0 w-100 h-100 cover bg-center"
+		*ngFor="let slide of slides"
+		[id]="slide.alias"
+		[class.mv-0]="slide.position == 'center'"
+		[class.mv-d-100]="slide.position == 'bottom'"
+		[class.mv-u-100]="slide.position == 'top'"
+		[class.trsn-mv]="slide.shouldTransition"
+	></div>
+
+</div>
+
+<!-- slider navigation -->
+<div id="work_nav" class="absolute r-3 t-50 mr6 z-2 display-b-m" >
+	<div class="pointer relative he2 w-2 br-b-1 overflow-hidden trsn-brc mb6"
+	*ngFor="let slide of slides"
+	[class.brc-1]="slide.position == 'center'"
+	(click)="onSelect(slide)"
+	></div>
+</div>

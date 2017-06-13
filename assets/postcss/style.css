@@ -1,0 +1,82 @@
+/*
+Theme Name: Portfolio
+Theme URI: http://ammaridris88.com
+Author: Ammar Idris
+Author URI: http://ammaridris88.com
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: portfolio
+*/
+
+/***************************
+Site Name: Ammaridris88.com
+Author: Ammar Idris
+Stylesheet: Main Stylesheet
+*****************************/
+
+/******************
++ Plugins/Libraries
+*******************/
+/*@import "normalize.css";*/
+
+/******
++ Base
+*******/
+/*Variables*/
+@import "base/variables";
+
+/*Functions*/
+@import "base/functions";
+/*utils*/
+@import "base/utils";
+/*Base*/
+@import "base/base";
+/*Typography*/
+@import "base/typography";
+/* Spacing */
+@import "base/spacing";
+/* Layout */
+@import "base/layout";
+/* Dimensions */
+@import "base/dimensions";
+/* Background */
+@import "base/background";
+/* Opacity */
+@import "base/opacity";
+/* Colors */
+@import "base/colors";
+/* Positioning */
+@import "base/positioning";
+/* Transforms */
+@import "base/transform";
+/* transitions */
+@import "base/transitions";
+/* Borders */
+@import "base/borders";
+/* Hover */
+@import "base/hover";
+
+/* shadow */
+@import "base/shadow";
+
+/*********
++ Modules
+**********/
+/* Page Title */
+@import "modules/page_title";
+/* Devices */
+@import "modules/devices";
+
+
+#bha 		{ background-image: url(../images/horsegif/1-optim.gif); }
+#dong 		{ background-image: url(../images/energy/3-optim.gif); }
+#imperial 	{ background-image: url(../images/edu/3-optim.gif); }
+#inition 	{ background-image: url(../images/3d/4-optim.gif); }
+#aquaterra 	{ background-image: url(../images/fit/4-optim.gif); }
+#edge 		{ background-image: url(../images/pr/3-optim.gif); }
+#hiphop		{ background-image: url(../images/bg_hiphop3-optim.gif); }
+#writer		{ background-image: url(../images/bg_writer-optim.gif); }
+#webdev		{ background-image: url(../images/bg_webdev4-optim.gif); }
+#chef		{ background-image: url(../images/bg_chef-optim.gif); }

@@ -1,0 +1,10 @@
+.page-title:before{
+    width: 18px;
+    height: 2px;
+    position: absolute;
+    left: -27px;
+    top: 6px;
+    background-color: #e7e6e0;
+    display: block;
+    content: "";
+}

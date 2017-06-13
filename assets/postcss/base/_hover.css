@@ -1,0 +1,60 @@
+/* HOVER EFFECTS */
+
+.hv-trns{
+  transition: color .1s ease-in;
+}
+.hv-color-pink:hover,
+.hv-color-pink:focus{
+  color: var(--pink);
+}
+.hv-color-lime:hover,
+.hv-color-lime:focus{
+  color: var(--vibrant-thing);
+}
+
+.hv-color-yellow:hover,
+.hv-color-yellow:focus{
+  color: var(--yellow);
+}
+
+/*
+  Dim element on hover by adding the dim class.
+*/
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+.dim:hover,
+.dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+.dim:active {
+  opacity: .8; transition: opacity .15s ease-out;
+}
+
+/* Can combine this with overflow-hidden to make background images grow on hover
+ * even if you are using background-size: cover */
+
+.grow {
+  transition: transform .4s;
+}
+
+.grow:hover {
+  transform: scale(1.02);
+}
+
+.grow-large {
+  transition: transform .4s;
+}
+
+.grow-large:hover {
+  transform: scale(1.2);
+}
+
+/* Add pointer on hover */
+
+.pointer:hover {
+  cursor: pointer;
+}
+

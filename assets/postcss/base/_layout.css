@@ -1,0 +1,38 @@
+/******************
+Stylesheet: Layout
+******************/
+
+/* Display */
+.inline       { display: inline }
+.block        { display: block }
+.inline-block { display: inline-block }
+.table        { display: table }
+.table-cell   { display: table-cell }
+.hide { display: none !important; }
+.show { display: block !important; }
+
+/* Overflow */
+.overflow-hidden { overflow: hidden }
+.overflow-scroll { overflow: scroll }
+.overflow-auto   { overflow: auto }
+
+.overflow-x-hidden { overflow-x: hidden; }
+
+/* Floats */
+.left  { float: left }
+.right { float: right }
+
+/*Box Sizing*/
+.border-box { box-sizing: border-box }
+
+/* Clears */
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+.cn { clear: none; }
+
+/* Align */
+.align-baseline { vertical-align: baseline }
+.align-top      { vertical-align: top }
+.align-middle   { vertical-align: middle }
+.align-bottom   { vertical-align: bottom }

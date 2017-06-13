@@ -1,0 +1,134 @@
+/*Stylesheet: Variables*/
+
+/*
+Media Query Suffixes
+-s
+-m
+-l
+*/
+
+/*Type Varibles*/
+:root {
+	/*Line heights*/
+  --line-height-1: 0.9;
+  --line-height-2: 1;
+  --line-height-3: 1.2;
+  --line-height-4: 1.25;
+  --line-height-5: 1.3;
+  --line-height-6: 1.4;
+  --line-height-7: 1.45;
+  --line-height-8: 1.6;
+
+  /*Spacing*/
+  --letter-spacing: 1;
+  --caps-letter-spacing: .2em;
+
+  /*Weights*/
+  --bold-font-weight: bold;
+
+  /*Type*/
+/*  --type-size-1: 5.25vw; 100px;
+  --type-size-2: 9.1vw;   70px
+  --type-size-3: 12.5vw; 50px
+  --type-size-4: 42px;
+  --type-size-5: 22px;
+  --type-size-6: 18px;
+  --type-size-7: 16px;
+  --type-size-8: 14px;
+  --type-size-9: 32px; */
+
+  --type-size-1: 100px;
+  --type-size-2: 70px;
+  --type-size-3: 50px;
+  --type-size-4: 42px;
+  --type-size-5: 22px;
+  --type-size-6: 18px;
+  --type-size-7: 16px;
+  --type-size-8: 14px;
+  --type-size-9: 32px;
+
+  
+  --ts-1: 10vw;
+  --ts-2: 9vw;
+  --ts-3: 8vw;
+  --ts-4: 7.5vw;
+  --ts-5: 5vw;
+  --ts-6: 3.65vw;
+  --ts-7: 100px;
+  --ts-8: 50px;
+  --ts-9: 42px;
+  --ts-10: 22px;
+  --ts-11: 18px;
+  --ts-12: 16px;
+  --ts-13: 14px;
+  
+
+
+  /* Type Family */
+  --font-family-1: 'FF Super Grotesk';
+  --font-family-2: 'Inconsolata';
+  --font-family-3: 'Apercu';
+  --font-family-4: 'Apercu Light';
+  --font-family-5: 'Lyon Display';
+  --font-family-6: 'Quarto';
+  --font-family-7: 'Leitura Display';
+
+  /* Padding/Margin (Spacing) */
+  --space-1: 240px;
+  --space-2: 120px;
+  --space-3: 60px;
+  --space-4: 40px;
+  --space-5: 30px;
+  --space-6: 20px;
+  --space-7: 10px;
+  --space-8: 208px;
+  --space-9: 280px;
+  --space-10: 130px;
+
+  /* Layout */
+  --width-1: 60%;
+  --width-2: 13px;
+  --width-3: 48rem;
+  --width-4: 64rem;
+  --width-5: 80%;
+
+  --height-1: 240px;
+  --height-2: 20px;
+  --height-3: 240px;
+  --height-4: 240px;
+
+  /**/
+  --pos-y-1: 360px;
+  --pos-y-2: 7.5rem;
+
+  --pos-x-1: 75px;
+  --pos-x-2: 100px;
+  --pos-x-3: 20px;
+  --pos-x-4: -3.75rem;
+
+
+  /* Colors */
+  --off-black: #212121;
+  --moon-gray: #cccccc;
+  --off-white: #ebebeb;
+  --light-gray: #c7c7c7;
+  --pink: #ca6b73;
+
+  /* Brand Colors*/
+  --bha-blue: #1E3378;
+  --bha-red: #DA2037;
+  --dong-red: #D40C14;
+  --dong-blue: #0F3D64;
+  --imperial-blue: #457BC5;
+  --imperial-lightblue: #26BEBE;
+  --imperial-pink: #CF4848;
+  --inition-pink: #ED174F;
+  --aqua-green: #00b398;
+  --aqua-yellow: #fae100;
+  --edge-yellow: #FFFF00;
+  --areo-mint: #C1DEC6;
+  --lime-green: #A9C265;
+  --vibrant-thing: #8EBF06;
+  --orange: #E06704;
+  --yellow: #E0BA2D;
+}

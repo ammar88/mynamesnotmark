@@ -1,0 +1,5 @@
+
+<article class="mx-auto w-40 mb4-m relative cf" *ngFor="let entry of entries">
+	<h2 class="font-family-5 type-size-4 my5 line-height-1 line-height-3-l"><a href="#" class="hv-trns hv-color-lime">{{ entry.title }}</a></h2>
+	<p class="font-family-2 type-size-8 absolute t-0">{{ entry.date | date: 'dd.MM.yy' }} ~ {{ entry.categories }}</p>
+</article>

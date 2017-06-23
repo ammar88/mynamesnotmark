@@ -3,6 +3,7 @@ import { NgModule }             from '@angular/core'
 import { BrowserModule, Title } from '@angular/platform-browser'
 import { HttpModule }           from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Angulartics2Module, Angulartics2GoogleAnalytics } from 'angulartics2';
 
 // Routing
 import { routing, appRoutingProviders } from './app.routing'
@@ -43,7 +44,8 @@ import { JournalEntriesComponent }   from './components/journal-entries.componen
 		BrowserModule,
 		HttpModule,
 		routing,
-		BrowserAnimationsModule
+		BrowserAnimationsModule,
+		Angulartics2Module.forRoot([ Angulartics2GoogleAnalytics ])
     ],
   	declarations: [
 	  	AppComponent,

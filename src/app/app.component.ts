@@ -1,6 +1,7 @@
 import { Component, OnInit, HostBinding } from '@angular/core'
 import { Title }     from '@angular/platform-browser'
 import { Router, RoutesRecognized } from '@angular/router';
+import { Angulartics2GoogleAnalytics } from 'angulartics2';
 
 import 'rxjs/add/operator/switchMap';
 
@@ -20,7 +21,8 @@ export class AppComponent implements OnInit{
 	constructor (
 		private router: Router,
 		private backgroundColorService: BackgroundColorService,
-		private titleService: Title
+		private titleService: Title,
+		private angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics
 	){
 		this.backgroundColorClass = 'bg-color-off-black'
 	}
